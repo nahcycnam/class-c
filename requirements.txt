@@ -1,0 +1,5 @@
+requests
+beautifulsoup4
+lxml
+PyQt6
+PyQt6-WebEngine
