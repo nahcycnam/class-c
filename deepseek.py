@@ -55,7 +55,7 @@ class Lims:
         self.uisessionid = session_input['value']
         self.logged_in = True
 
-    def login(self, username="chenmengxi", password="Sbdt1124@"):
+    def login(self, username="liqianru", password="Ll*850510"):
         self.get_loginstamp()
         self.get_csrftoken(username, password)
 
@@ -530,10 +530,10 @@ class ChartShowApp(QMainWindow):
                 cells = row.find_all(['td', 'th'])
                 has_taojin = False
                 if station_idx is not None and station_idx < len(cells):
-                    if '淘金' in cells[station_idx].get_text(strip=True):
+                    if '动物园' in cells[station_idx].get_text(strip=True):
                         has_taojin = True
                 if area_idx is not None and area_idx < len(cells):
-                    if '淘金' in cells[area_idx].get_text(strip=True):
+                    if '动物园' in cells[area_idx].get_text(strip=True):
                         has_taojin = True
                 if not has_taojin:
                     continue
