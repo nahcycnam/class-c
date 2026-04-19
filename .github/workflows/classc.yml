@@ -40,10 +40,10 @@ jobs:
             --include-package-data=lxml `
             --include-package-data=bs4 `
             --include-package-data=soupsieve `
-            lims_duty.py
+            deepseek.py
 
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
-          name: 施工登录
-          path: "lims_duty.dist/"
+          name: C类施工
+          path: "deepseek.dist/"
